@@ -38,6 +38,7 @@ a {
 
 .home-banner-wrap {
     padding: 100px 0 50px;
+
 }
 .home-banner-content {
     position: relative;
@@ -267,7 +268,7 @@ a {
     height: 900px;
     top: -400px;
     left: 0;
-    background-image: linear-gradient(#2ea043, #56d364, #196c2e);
+    background-image: linear-gradient(#2ea043, #56d364, #a371f7);
 }
 .home-faq-item .card {
     background-color: rgba(235, 245, 255, 0.1);
