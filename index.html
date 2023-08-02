@@ -1,123 +1,197 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Bellhacks 23</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Bellhacks 23</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.bellhacks.tech/" />
+    <meta property="og:title" content="BellHacks 2023" />
+    <meta
+      property="og:description"
+      content="December 9 @ Bellarmine College Preparatory."
+    />
+    <meta property="og:image" content="./images/favicon.png" />
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.bellhacks.tech/">
-        <meta property="og:title" content="BellHacks 2023">
-        <meta property="og:description" content="December 9 @ Bellarmine College Preparatory.">
-        <meta property="og:image" content="https://www.yoursite.com/image.jpg">
-    
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://www.bellhacks.tech/">
-        <meta property="twitter:title" content="BellHacks 2023">
-        <meta property="twitter:description" content="December 9 @ Bellarmine College Preparatory.">
-        <meta property="twitter:image" content="https://www.yoursite.com/image.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.bellhacks.tech/" />
+    <meta property="twitter:title" content="BellHacks 2023" />
+    <meta
+      property="twitter:description"
+      content="December 9 @ Bellarmine College Preparatory."
+    />
+    <meta property="twitter:image" content="./images/favicon.png" />
 
-        <!--Styles-->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <!--Styles-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-        <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
+    <link
+      rel="icon"
+      href="./images/favicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
 
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("W-7Cq_BGRmjm1JCR_"); // Replace it with your EmailJS user ID
+      })();
+    </script>
+  </head>
 
-    </head>
-
-    <body style="background-image: url('./bell-hacks-logo-zip-file/bg-stars-1.png'); background-size: contain;">
-
-        <header class="sticky-top">
-            <nav class="navbar navbar-expand-md navbar-dark navbar-main">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/">
-                        <img src="images/logo.png" alt="" class="img-fluid"/>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
+  <body
+    class="main"
+    style="
+      background-image: url('./bell-hacks-logo-zip-file/bg-stars-1.png');
+      background-size: contain;
+    "
+  >
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-md navbar-dark navbar-main">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="images/logo.png" alt="" class="img-fluid" style="padding-left: 10px;"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
                                 <a class="nav-link" href="#schedule">Schedule</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#faq">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/sponsors">Sponsor Us</a>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="/sponsors">Sponsor Us</a>
+              </li>
+              <!-- <li class="nav-item">
                                 <a class="nav-link" href="#prizes">Prizes</a>
-                            </li>
-                        </ul>
+                            </li> -->
+            </ul>
+            <button class="btn btn-outline-light" type="button" >Registration Opens Soon</button>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-                            <button class="btn btn-outline-light" type="button">Register Now</button>
-
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <section id="landing" class="home-banner-wrap">
-            <div class="container">
-                <div class="home-banner-content">
-                    <div class="home-banner-content-main">
-                        <h2>Bellhacks is finally Back!</h2>
-                        <div class="date">December 9, @ <a href="#">Bellarmine College Preparatory</a></div>
-                        <div class="social">
-                            <div class="input-group">
-                                <input type="email" class="form-control" placeholder="Email address">
-                                <button class="btn btn-primary" type="button">Pre-Register Now</button>                            
-                            </div>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><img src="images/instagram.png" alt="" class="img-fluid"/></a></li>
-                                <li><a href="#"><img src="images/email.png" alt="" class="img-fluid"/></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="home-banner-content-snp">
-                        <div class="title">Sponsors and Partners</div>
-                        <img src="images/bcp_logo_new.svg" alt="" class="img-fluid"/>
-                    </div>
-                </div>
+    <section id="landing" class="home-banner-wrap">
+      <div class="container">
+        <div class="home-banner-content">
+          <div class="home-banner-content-main">
+            <h2>Bellhacks is Finally Back!</h2>
+            <div class="date">
+              December 9, @ <a href="https://www.google.com/maps/place/Bellarmine+College+Preparatory/@37.3435347,-121.9188173,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x808fcb719d6e94f5:0xe659595e36dfa739!8m2!3d37.3435347!4d-121.9188173!16zL20vMDNuZ2I1?entry=ttu" target="_blank">Bellarmine College Preparatory</a>
             </div>
-        </section>
-
-        <section id="quickfacts" class="home-about-wrap">
-            <div class="container">
-                <div class="home-about-content">
-                    <h2>The opportunity of a lifetime</h2>
-                    <div class="row flex-column flex-lg-row">
-                        <div class="col-lg-4 col-md-8">
-                            <div class="home-about-item">
-                                <h5>Title 1</h5>
-                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-8">
-                            <div class="home-about-item">
-                                <h5>Title 2</h5>
-                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-8">
-                            <div class="home-about-item">
-                                <h5>Title 3</h5>
-                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="social">
+              <form id="email-form" class="input-group">
+                <input
+                  id="user_email"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button type="submit" class="btn btn-primary" type="button">
+                  Pre-Register Now
+                </button>
+              </form>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://instagram.com/bellhacks23" target="_blank"
+                    ><img src="images/instagram.png" alt="" class="img-fluid"
+                  /></a>
+                </li>
+                <li>
+                  <a href="mailto:support@bellhacks.tech"
+                    ><img src="images/email.png" alt="" class="img-fluid"
+                  /></a>
+                </li>
+              </ul>
             </div>
-        </section>
+          </div>
+          <div class="home-banner-content-snp">
+            <div class="title">Sponsors and Partners</div>
+            <a href="https://bcp.org" target="_blank">
+            <img src="images/bcp_logo_new.svg" alt="" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="schedule" class="home-schedule-wrap">
+    <section id="quickfacts" class="home-about-wrap">
+      <div class="container">
+        <div class="home-about-content">
+          <h2>The opportunity of a lifetime</h2>
+          <div class="row flex-column flex-lg-row">
+            <div class="col-lg-4 col-md-8">
+              <div class="home-about-item">
+                <h5>Beginner Friendly</h5>
+                <hr />
+                <p>
+                  You don't need extensive programming knowledge to participate
+                  in BellHacks. Just bring a computer and yourself, ready to
+                  learn from our workshops and speakers.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+              <div class="home-about-item">
+                <h5>Great Prizes</h5>
+                <hr />
+                <p>
+                  Our wonderful sponsors have helped us put together an array of
+                  amazing prizes in different areas, for everyone to win.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+              <div class="home-about-item">
+                <h5>Fully Catered Food</h5>
+                <hr />
+                <p>
+                  Don't worry about arranging food! We will provide lunch,
+                  dinner, and snacks along the way to fully complete your
+                  hackathon experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="landing" class="sponsor-waiting-wrap">
+      <div class="container">
+        <div class="sponsor-waiting-content">
+          <div class="sponsor-waiting-content-main">
+            <div>
+              <p>More Details Coming Soon...</p>
+              <p style="font-size: 25px">
+                <a href="#"> Pre-Register Now! </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="schedule" class="home-schedule-wrap">
             <div class="container">
                 <div class="home-schedule-content">
                     <h2>Schedule</h2>
@@ -175,49 +249,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-6">
-                            <div class="home-schedule-item">
-                                <h6>Day 1 - April 8th</h6>
-                                <div class="table-responsive">
-                                    <table class="table table-borderless table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>Time</th>
-                                                <th>Event</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>9:00 AM</td>
-                                                <td>Check-in</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9:00 AM</td>
-                                                <td>Check-in</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9:00 AM</td>
-                                                <td>Check-in</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9:00 AM</td>
-                                                <td>Check-in</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9:00 AM</td>
-                                                <td>Check-in</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9:00 AM</td>
-                                                <td>Check-in</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9:00 AM</td>
-                                                <td>Check-in</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div> -->
+                       
                             </div>
                         </div>
                     </div>
@@ -306,11 +338,47 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <!--JS-->
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-        <script src="js/custom.js" type="text/javascript"></script>
-    </body>
+    <!--JS-->
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script>
+      function validateEmail(email) {
+        var re =
+          /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+      }
+
+      document
+        .getElementById("email-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          var email = event.target.user_email.value;
+
+          if (!validateEmail(email)) {
+            alert("Invalid email address");
+            return;
+          }
+
+          // send the email
+          emailjs
+            .send("service_vjygoza", "template_60jkaju", { user_email: email })
+            .then(function (response) {
+              console.log("Email successfully sent!");
+            })
+            .catch(function (error) {
+              console.error("Error sending email:", error);
+            });
+            document.getElementById('email-form').innerHTML = '<p style="font-size: 18px; text-align: center; border: 2px solid purple; padding: 10px;">Thank you for pre-registering! Keep an eye out for emails from the BellHacks team.</p>';
+
+        });
+
+
+    </script>
+   
+  </body>
 </html>
