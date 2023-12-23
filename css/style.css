@@ -24,6 +24,7 @@ hr {
     border-top: 5px solid #570C5A;
 }
 
+
 /* navbar */
 
 .navbar-main {
@@ -51,6 +52,12 @@ hr {
 .btn-outline-light:hover {
     background-color: #ffffff;
     border-color: #ffffff;
+    color: black; /* Change text color to black on hover */
+}
+
+/* Add this to specifically target the anchor tag within the button */
+.btn-outline-light:hover .pre-reg-link {
+    color: black; /* Ensure the link inside the button also turns black on hover */
 }
 
 /* home banner */

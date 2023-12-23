@@ -71,7 +71,7 @@
 
 
           </ul>
-          <button class="btn btn-outline-light" type="button"><a href="#">Pre-Registration Open Now!</a></button>
+          <button class="btn btn-outline-light"  id="focusButton" type="button"><a href="#" class="pre-reg-link" style="color: #fff">Pre-Registration Open Now!</a></button>
           <!--
             make this button above highlight the preregistration email form
           -->
@@ -509,6 +509,15 @@
 
 
   </script>
+
+<script>
+  document.getElementById('focusButton').addEventListener('click', function() {
+      var emailInput = document.getElementById('user_email');
+      emailInput.focus(); 
+      emailInput.select(); 
+
+  });
+</script>
 
 </body>
 
