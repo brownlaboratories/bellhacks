@@ -482,6 +482,18 @@ hr {
     margin-bottom: 30px;
 }
 
+.sponsor-waiting-content-secondary {
+    padding: 50px 50px 50px;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sponsor-waiting-content-secondary p {
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
 
 
 
