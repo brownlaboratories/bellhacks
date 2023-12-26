@@ -166,10 +166,16 @@ hr {
 }
 
 .home-banner-content-snp img {
-    max-width: 150px;
-    opacity: 0.9;
+    max-height: 50px;
+    padding-right: 5px;
+    padding-top: 5px;
+    opacity: 1;
 }
 
+.home-banner-sponsor-logo {
+    height: 50px;
+    width: auto;
+}
 
 /* about (quickfacts) */
 
