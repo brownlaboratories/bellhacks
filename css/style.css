@@ -495,7 +495,29 @@ hr {
 
 }
 
+.pdf-iframe-container iframe {
+    width: 100%;
+    height: 900px;
+    border: none;
+  }
+  
+  /* Styles for mobile fallback component */
+  .mobile-fallback {
+    display: none;
+  }
 
+  /* Media query for small screens */
+  @media screen and (max-width: 768px) {
+    /* Hide iframe on small screens */
+    .pdf-iframe-container iframe {
+      display: none;
+    }
+  
+    /* Show mobile fallback on small screens */
+    .mobile-fallback {
+      display: block;
+    }
+  }
 
 
 @media (max-width: 991px) {
