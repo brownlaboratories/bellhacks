@@ -10,7 +10,7 @@ body.main {
 }
 
 body.sponsor {
-    background-color: #69359C;
+    background-color: #1f56b5;
     color: #ffffff;
 }
 
@@ -21,7 +21,7 @@ a {
 
 hr {
     border: none;
-    border-top: 5px solid #570C5A;
+    border-top: 5px solid #1f56b5;
 }
 
 
@@ -79,7 +79,7 @@ hr {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(#d2a8ff, #a371f7 50%, #196c2e );
+    background-image: linear-gradient(#71bdf7, #1f56b5 50%, #196c2e );
 }
 
 .home-banner-content-main {
@@ -123,13 +123,13 @@ hr {
 }
 
 .btn-primary {
-    background-color: #7140C8;
-    border-color: #7140C8;
+    background-color: #1f56b5;
+    border-color: #1f56b5;
 }
 
 .btn-primary:hover {
-    background-color: #BB8CFF;
-    border-color: #BB8CFF;
+    background-color: #3ea9f0;
+    border-color: #3ea9f0;
 }
 
 .home-banner-content-main .social>ul {
@@ -195,6 +195,7 @@ hr {
     height: 100%;
     top: -100px;
     left: 0;
+    /* background-image: linear-gradient(#d2a8ff, rgb(114, 52, 172), rgb(113, 5, 59)) */
     background-image: linear-gradient(#196c2e, #2ea043, #56d364, #ea6045);
 }
 
@@ -205,7 +206,7 @@ hr {
 }
 
 .home-about-item {
-    border: 2px solid #570C5A;
+    border: 2px solid #1f56b5;
     border-radius: 0.375rem;
     padding: 25px;
     font-size: 18px;
@@ -425,7 +426,7 @@ hr {
 .home-faq-item .card {
     background-color: rgba(235, 245, 255, 0.1);
     border: 1;
-    border-color: #570C5A;
+    border-color: #1f56b5;
     margin-bottom: 20px;
 }
 
@@ -501,23 +502,23 @@ hr {
     border: none;
   }
   
-  /* Styles for mobile fallback component */
-  .mobile-fallback {
-    display: none;
-  }
+/* Styles for mobile fallback component */
+.mobile-fallback {
+display: none;
+}
 
-  /* Media query for small screens */
-  @media screen and (max-width: 768px) {
-    /* Hide iframe on small screens */
-    .pdf-iframe-container iframe {
-      display: none;
-    }
-  
-    /* Show mobile fallback on small screens */
-    .mobile-fallback {
-      display: block;
-    }
-  }
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+/* Hide iframe on small screens */
+.pdf-iframe-container iframe {
+    display: none;
+}
+
+/* Show mobile fallback on small screens */
+.mobile-fallback {
+    display: block;
+}
+}
 
 
 @media (max-width: 991px) {
@@ -595,5 +596,9 @@ hr {
     .home-faq-wrap h2,
     .sponsor-waiting-content-main p {
         font-size: 20px;
+    }
+
+    .navbar-main .navbar-brand {
+        padding-top: 10px;
     }
 }
