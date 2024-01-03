@@ -262,6 +262,8 @@ hr {
     padding: 25px;
     margin-bottom: 30px;
     justify-content: center;
+    background-color: rgba(53, 59, 66, 0.794);
+
 }
 
 .home-tracks-item-2{
@@ -270,6 +272,8 @@ hr {
     padding: 25px;
     margin-bottom: 30px;
     justify-content: center;
+    background-color: rgba(53, 59, 66, 0.794);
+
 }
 .home-tracks-item-3{
     border: 2px solid pink;
@@ -277,6 +281,8 @@ hr {
     padding: 25px;
     margin-bottom: 30px;
     justify-content: center;
+    background-color: rgba(53, 59, 66, 0.794);
+
 }
 
 .home-tracks-arrow-placeholder{
