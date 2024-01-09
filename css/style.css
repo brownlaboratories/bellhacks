@@ -108,7 +108,7 @@ hr {
 }
 
 .home-banner-content-main .input-group {
-    max-width: 400px;
+    max-width: 130px;
     position: relative;
 }
 
@@ -126,6 +126,7 @@ hr {
     background-color: #1f56b5;
     border-color: #1f56b5;
 }
+
 
 .btn-primary:hover {
     background-color: #3ea9f0;
