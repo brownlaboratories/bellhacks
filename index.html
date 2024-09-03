@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Bellhacks 24</title>
+  <title>Bellhacks 2.0</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -10,19 +10,21 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.bellhacks.tech/" />
   <meta property="og:title" content="BellHacks 2024" />
-  <meta property="og:description" content="February 3 @ Bellarmine College Preparatory." />
+  <meta property="og:description" content="October 19 @ Bellarmine College Preparatory." />
   <meta property="og:image" content="./bell-hacks-logo-zip-file/Favicon.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://www.bellhacks.tech/" />
   <meta property="twitter:title" content="BellHacks 2024" />
-  <meta property="twitter:description" content="February 3 @ Bellarmine College Preparatory." />
+  <meta property="twitter:description" content="October 19 @ Bellarmine College Preparatory." />
   <meta property="twitter:image" content="./bell-hacks-logo-zip-file/Favicon.png" />
 
   <!--Styles-->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel-2.3.4.min.css" rel="stylesheet" type="text/css"/>
+  <link href="css/owl.theme.default-2.3.4.min.css" rel="stylesheet" type="text/css"/>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 
   <link rel="icon" href="./bell-hacks-logo-zip-file/Favicon.png" type="image/png" sizes="192x192" />
@@ -43,7 +45,7 @@
     <nav class="navbar navbar-expand-md navbar-dark navbar-main">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-          <!-- <img src="images/logo.png" alt="" class="img-fluid" style="padding-left: 10px;" /> -->
+          <!-- <img src="images/logo.png" alt="" class="img-responsive" style="padding-left: 10px;" /> -->
           <img src="bell-hacks-logo-zip-file/BellHacks_Logo_transparent.svg" alt="" style="padding-left: 10px;" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -51,8 +53,6 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
-
-
 
             <li class="nav-item">
               <a class="nav-link" href="/#about">About</a>
@@ -72,7 +72,7 @@
 
 
           </ul>
-          <button class="btn btn-outline-light" type="button"><a target="_blank" class="pre-reg-link" style="color: #fff">Look out for 2.0 this fall</a></button>
+          <button class="btn btn-outline-light" type="button"><a href="" target="_blank" class="pre-reg-link" style="color: #fff">Look out for 2.0 this fall</a></button>
           <!--
             make this button above highlight the preregistration email form
           -->
@@ -83,69 +83,173 @@
 
   <section id="landing" class="home-banner-wrap">
     <div class="container">
-      <div class="home-banner-content">
-        <div class="home-banner-content-main">
-          <h2>Bellhacks 1.0 was a blast!</h2>
+      <div class="home-banner-content row">
+        <div class="home-banner-content-main col-md-8">
+          <h2>Bellhacks 2.0 OTW</h2>
           <div class="date">
-            February 3, 2024 @ <a
+            October 19, 2024 @ <a
               href="https://www.google.com/maps/place/Bellarmine+College+Preparatory/@37.3435347,-121.9188173,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x808fcb719d6e94f5:0xe659595e36dfa739!8m2!3d37.3435347!4d-121.9188173!16zL20vMDNuZ2I1?entry=ttu"
               target="_blank">Bellarmine College Preparatory</a>
           </div>
           <div class="social">
-            <!-- <form id="email-form" class="input-group"> -->
-              <!-- <input id="user_email" type="email" class="form-control" placeholder="Email address" /> -->
-              <!-- <button type="submit" class="btn btn-primary" onclick="openUrl()">
-
-                  Register Now
-
-              </button> -->
-              
-            <!-- </form> -->
+            <form id="email-form" class="input-group">
+              <input id="user_email" type="email" class="form-control" placeholder="Email address" />
+              <button type="submit" class="btn btn-primary" onclick="openUrl()">
+                  Pre-Register Now
+              </button>
+            </form>
             <ul class="list-unstyled">
               <li>
                 <a href="https://instagram.com/bellhacks24" target="_blank"><img src="images/instagram.png" alt=""
-                    class="img-fluid" /></a>
+                    class="img-responsive" /></a>
               </li>
               <li>
-                <a href="mailto:support@bellhacks.tech"><img src="images/email.png" alt="" class="img-fluid" /></a>
+                <a href="mailto:support@bellhacks.tech"><img src="images/email.png" alt="" class="img-responsive" /></a>
               </li>
               <li>
-                <a href="https://discord.gg/eQ2WRDefED" target="_blank"><img src="images/discor.png" alt="" class="img-fluid"/></a>
+                <a href="https://discord.gg/eQ2WRDefED" target="_blank"><img src="images/discor.png" alt="" class="img-responsive"/></a>
+              </li>
+              <li>
+                <a href="https://bellhacks.devpost.com/" target="_blank"><img src="images/devpost.png" alt="" class="img-responsive" /></a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="home-banner-content-snp">
-          <div class="title">Sponsors and Partners (Over $18,000 raised!)</div>
+        <div class="col-md-4 gallery-wrap">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-2.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-3.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-4.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-13.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-21.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-23.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-29.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-30.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-32.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-33.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-34.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-36.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-40.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-46.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-62.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-64.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-67.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-94.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-98.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0);">
+                        <img src="images/good flics bellhacks/bellhacks23-106.jpg" src="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="home-banner-content-snp col-md-12">
+          <div class="title">Sponsors and Partners</div>
           <a href="https://bcp.org" target="_blank">
-            <img src="images/bcp_logo_new.svg" alt="" class="img-fluid" />
+            <img src="images/bcp_logo_new.svg" alt="" class="img-responsive" />
           </a>
           <a href="https://wolfram.com/" target="_blank">
-            <img src="images/wolfram.png" alt="" class="img-fluid"/>
+            <img src="images/wolfram.png" alt="" class="img-responsive"/>
           </a>
           <a href="https://hackclub.com/" target="_blank">
-            <img src="images/flag-standalone.png" alt="" class="img-fluid" />
+            <img src="images/flag-standalone.png" alt="" class="img-responsive" />
           </a>
           <a href="https://www.productteacher.com/" target="=_blank">
-            <img src="images/productteacher.png" alt="" class="img-fluid" />
+            <img src="images/productteacher.png" alt="" class="img-responsive" />
           </a>
           <a href="https://www.axure.com/" target="_blank">
-            <img src="images/axurelogo.png" alt="" class="img-fluid" />
+            <img src="images/axurelogo.png" alt="" class="img-responsive" />
           </a>
           <a href="https://www.echo3d.com/" target="_blank">
-            <img src="images/echo3D.png" alt="" class="img-fluid scaled-image"/>
+            <img src="images/echo3D.png" alt="" class="img-responsive scaled-image"/>
           </a>
           <a href="https://www.scu.edu/engineering/" target="_blank">
-            <img src="images/scu-removebg-preview.png" alt="" class="img-fluid added-padding" />
+            <img src="images/scu-removebg-preview.png" alt="" class="img-responsive added-padding" />
           </a>
           <a href="https://turso.tech/" target="_blank">
-            <img src="images/tursodb-removebg-preview.png" alt="" class="img-fluid" />
+            <img src="images/tursodb-removebg-preview.png" alt="" class="img-responsive" />
           </a>
           <a href="https://adobe.com" target="_blank">
-            <img src="images/Adobe-logo.png" alt="" class="img-fluid" />
+            <img src="images/Adobe-logo.png" alt="" class="img-responsive" />
           </a>
           <a href="https://artofproblemsolving.com/" target="_blank">
-            <img src="images/aops.png" alt="" class="img-fluid" />
+            <img src="images/aops.png" alt="" class="img-responsive" />
           </a>
         </div>
       </div>
@@ -269,7 +373,7 @@
         <div class="row justify-content-left">
           <div class="col-md-6">
             <div class="home-schedule-item">
-              <h6 style="text-align: left;">February 3, 2024</h6>
+              <h6 style="text-align: left;">October 19, 2024</h6>
               <div class="table-responsive">
                 <table class="table table-borderless table-striped">
                   <thead>
@@ -342,25 +446,25 @@
   <section id="team" class="home-team-wrap">
     <div class="container">
       <div class="home-team-content">
-        <h3>Team Coming Soon...</h2>
+        <h3>Team added soon...</h2>
         <!-- <div class="row">
           <div class="col-lg-4 col-md-8">
             <div class="home-team-item">
-              <img src="images/kev1.jpg" alt="" class="img-fluid" />
+              <img src="images/kev1.jpg" alt="" class="img-responsive" />
               <h5>John Doe</h5>
               <p>Organizer</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-8">
             <div class="home-team-item">
-              <img src="images/placeholder.png" alt="" class="img-fluid" />
+              <img src="images/placeholder.png" alt="" class="img-responsive" />
               <h5>Jane Doe</h5>
               <p>Organizer</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-8">
             <div class="home-team-item">
-              <img src="images/placeholder.png" alt="" class="img-fluid" />
+              <img src="images/placeholder.png" alt="" class="img-responsive" />
               <h5>John Doe</h5>
               <p>Organizer</p>
             </div>
@@ -496,6 +600,7 @@
 
   <script src="js/jquery.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+  <script src="js/owl.carousel-2.3.4.min.js" type="text/javascript"></script>
   <script src="js/custom.js" type="text/javascript"></script>
   <script>
     function validateEmail(email) {
@@ -503,18 +608,14 @@
         /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       return re.test(String(email).toLowerCase());
     }
-
     document
       .getElementById("email-form")
       .addEventListener("submit", function (event) {
         event.preventDefault();
-
         var email = event.target.user_email.value;
-
         if (!validateEmail(email)) {
           return;
         }
-
         // send the email
         emailjs
           .send("service_vjygoza", "template_60jkaju", { user_email: email })
@@ -525,17 +626,42 @@
             console.error("Error sending email:", error);
           });
         document.getElementById('email-form').innerHTML = '<p style="font-size: 18px; text-align: center; border: 2px solid purple; padding: 10px;">Thank you for pre-registering! Keep an eye out for emails from the BellHacks team.</p>';
-
       });
-
-
   </script>
       <script>
         function openUrl() {
             window.open('https://9gvopulz98u.typeform.com/to/QHu1F6TO', '_blank');
         }
     </script>
-
+    <script>
+        //=== Project Carousel V3 ===
+            $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    dots: false,
+                    margin: 15,
+                    nav: true,
+                    responsiveClass: true,
+                    autoplay: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true,
+                            loop: true
+                        },
+                        600: {
+                            items: 1,
+                            nav: true,
+                            slideBy: 1,
+                            loop: true
+                        },
+                        1000: {
+                            items: 1,
+                            nav: true,
+                            loop: true,
+                            slideBy: 1
+                        }
+                    }
+                });
+    </script>
 </body>
-
 </html>
