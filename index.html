@@ -93,9 +93,9 @@
           </div>
           <div class="social">
             <form id="email-form" class="input-group">
-              <input id="user_email" type="email" class="form-control" placeholder="Email address" />
-              <button type="submit" class="btn btn-primary" onclick="openUrl()">
-                  Pre-Register Now
+              <input id="user_email" name="email" type="email" class="form-control" placeholder="Email address" required />
+              <button type="submit" class="btn btn-primary">
+                Pre-Register Now
               </button>
             </form>
             <ul class="list-unstyled">
@@ -602,6 +602,9 @@
   <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
   <script src="js/owl.carousel-2.3.4.min.js" type="text/javascript"></script>
   <script src="js/custom.js" type="text/javascript"></script>
+  // Load the Google Sheets API client library
+  <script src="https://apis.google.com/js/api.js"></script>
+  
   <script>
     function validateEmail(email) {
       var re =
